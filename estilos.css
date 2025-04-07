@@ -1,58 +1,68 @@
 .contenedor{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: flex-start;
+    /* flex-wrap: nowrap; */
+    align-items: flex-start;
     align-content: center;
-    height: 700px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .caja-1{
-    width: 500px;
-    height: 80px;
+    /* flex-basis: 900px;
+    flex-grow: 1;
+    flex-shrink: 1; */
+
+    flex: 900px 1 1;
+    /*  width: 500px;
+   height: 80px; */
     font-size: 70px;
     color: white;
     background-color: blue;
 }
 
 .caja-2{
-    width: 500px;
-    height: 80px;
-    font-size: 70px;
+    flex-basis: 900px;
+    flex-grow: 1;
+    flex-shrink: 2;
+   /*  width: 500px;
+    height: 80px;*/
+    font-size: 70px; 
     color: wheat;
     background-color: red;
 }
 
 .caja-3{
-    width: 500px;
-    height: 80px;
+    flex-basis: 900px;
+    flex-grow: 1;
+    flex-shrink: 1;
+  /*   width: 500px;
+    height: 80px; */
     font-size: 70px;
     color: wheat;
     background-color: orange;
 }
 
 .caja-4{
-    width: 500px;
-    height: 80px;
-    font-size: 70px;
+   /*  width: 500px;
+    height: 80px;*/
+    font-size: 70px; 
     color: wheat;
     background-color:aqua;
 }
 
 .caja-5{
     width: 500px;
-    height: 80px;
-    font-size: 70px;
+    /* height: 80px;
+    font-size: 70px; */
     color: wheat;
     background-color:green;
 }
 
 .caja-6{
     width: 500px;
-    height: 80px;
-    font-size: 70px;
+    /* height: 80px;
+    font-size: 70px; */
     color: wheat;
     background-color:maroon;
 }
